@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, test } from "@jest/globals";
-import { BuyXPayForYRule } from "../../PricingRules/Rules/BuyXForYRule";
+import { BuyXPayForYRule } from "../../src/PricingRules/Rules/BuyXForYRule";
 
 describe("BuyXPayForYRule - Constructor Validations", () => {
   test("Should throw error if pay quantity is greater than buying quantity", () => {

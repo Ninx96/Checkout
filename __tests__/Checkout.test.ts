@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, test } from "@jest/globals";
-import { BulkDiscountRule } from "../PricingRules/Rules/BulkDiscountRule";
-import { BuyXPayForYRule } from "../PricingRules/Rules/BuyXForYRule";
-import { DefaultRule } from "../PricingRules/Rules/DefaultRule";
-import { Checkout } from "../Checkout";
+import { BulkDiscountRule } from "../src/PricingRules/Rules/BulkDiscountRule";
+import { BuyXPayForYRule } from "../src/PricingRules/Rules/BuyXForYRule";
+import { DefaultRule } from "../src/PricingRules/Rules/DefaultRule";
+import { Checkout } from "../src/Checkout";
 
 // Products catalogue (as provided)
 const products = [

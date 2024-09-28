@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, test } from "@jest/globals";
-import { BulkDiscountRule } from "../../PricingRules/Rules/BulkDiscountRule";
+import { BulkDiscountRule } from "../../src/PricingRules/Rules/BulkDiscountRule";
 
 describe("BulkDiscountRule - Constructor Validations", () => {
   test("Should throw error if discounted price is greater than the actual price", () => {
